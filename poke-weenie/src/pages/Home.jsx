@@ -1,10 +1,10 @@
-import { Button } from "@/components/ui/button";
+import React from 'react';
+import Navbar from '../components/custom/Navbar';
 
 function Home() {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline text-amber-950">testing!</h1>
-      <Button>Click me</Button>
+      <Navbar />
     </div>
   );
 }
