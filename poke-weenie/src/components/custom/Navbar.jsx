@@ -18,10 +18,7 @@ function Navbar() {
     <nav className="bg-slate-100 text-primary-foreground py-4">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          <Link
-            to="/"
-            className="text-2xl hover:scale-105 duration-500"
-          >
+          <Link to="/" className="text-2xl hover:scale-105 duration-500">
             <img src={logo} className="w-24" />
           </Link>
           <div className="lg:hidden">
