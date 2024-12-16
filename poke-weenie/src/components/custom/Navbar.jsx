@@ -19,7 +19,7 @@ function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="text-2xl hover:scale-105 duration-500">
-            <img src={logo} className="w-24" />
+            <img src={logo} className="w-24 rounded-full" />
           </Link>
           <div className="lg:hidden">
             <Button
