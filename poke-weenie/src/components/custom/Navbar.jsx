@@ -15,7 +15,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-slate-100 text-primary-foreground py-4">
+    <nav className="bg-slate-300 text-primary-foreground py-4">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="text-2xl hover:scale-105 duration-500">
