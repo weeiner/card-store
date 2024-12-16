@@ -11,7 +11,7 @@ import logo from "../../assets/logo.jpeg";
 
 function CustomCard() {
   return (
-    <Card>
+    <Card className="w-72 ml-3 mt-3">
       <CardHeader>
         <CardTitle>
             <img src={logo}/>
