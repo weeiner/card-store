@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <div className="flex flex-row flex-wrap justify-center mt-3 mb-3">
+      <div className="flex flex-row flex-wrap justify-center">
         <CustomCard />
         <CustomCard />
         <CustomCard />
