@@ -26,7 +26,6 @@ function Home() {
         <CustomCard />
         <CustomCard />
       </div>
-
       <Footer />
     </div>
   );
